@@ -112,8 +112,6 @@ with app.app_context():
     db.create_all()
 
 
-
-
 # Create an admin-only decorator
 def admin_only(f):
     @wraps(f)
